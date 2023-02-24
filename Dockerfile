@@ -10,7 +10,6 @@ WORKDIR /usr/src/app
 
 COPY HelloWorld.js .
 
-EXPOSE 80
 
 CMD ["node" , "HelloWorld.js"]
 
